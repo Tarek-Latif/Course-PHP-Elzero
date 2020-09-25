@@ -1,0 +1,2 @@
+ <?php
+ $pagename = "Tarek";

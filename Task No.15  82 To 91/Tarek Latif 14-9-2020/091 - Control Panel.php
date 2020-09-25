@@ -1,0 +1,13 @@
+<?php
+session_start();
+
+if (isset($_SESSION['user'])) { // لو السيشن موجود
+
+    echo 'Welcome ' . $_SESSION['user'] . 'You Are Admin';
+    echo '<pre>';
+    print_r($_SESSION);
+    echo '</pre>';
+
+} else {
+    echo 'You Are Not Permitted To See This Page';
+}
